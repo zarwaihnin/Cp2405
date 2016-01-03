@@ -2,8 +2,6 @@
 
 body {
 	background-image: url(../images/featured47@wdd2x.jpg);
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	color: #E6E6E6;
-	
-
 }
