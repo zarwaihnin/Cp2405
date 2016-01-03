@@ -23,3 +23,13 @@
 	float: left;
 	margin-right: 10px;
 }
+
+
+h1,h2 {
+	background-color: #C06;
+	text-align: center;
+}
+
+h1 {
+	width: 860px;
+}
