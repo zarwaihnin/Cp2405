@@ -27,32 +27,74 @@ function MM_swapImage() { //v3.0
 </script>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
-#Videobg {
+#apDiv2 {
 	position: absolute;
-	width: 321px;
-	height: 199px;
+	width: 900px;
+	height: 550px;
 	z-index: 1;
-	left: 134px;
-	top: 108px;
-	background-color: #000000;
+	left: 50%;
+	top: 91px;
+	margin-left: -450px;
+	color: #D6D6D6;
 }
-#Video1 {
+#V1bg {
 	position: absolute;
 	width: 291px;
-	height: 164px;
-	z-index: 2;
-	left: 150px;
-	top: 126px;
-	background-color: #E5E5E5;
+	height: 188px;
+	z-index: 1;
+	left: 35px;
+	top: 41px;
+	background-color: #000000;
+}
+#V1 {
+	position: absolute;
+	width: 236px;
+	height: 141px;
+	z-index: 1;
+	left: 27px;
+	top: 26px;
+	background-color: #DDDDDD;
 }
 #apDiv1 {
 	position: absolute;
-	width: 315px;
-	height: 23px;
-	z-index: 3;
-	left: 138px;
-	top: 318px;
-	color: #000000;
+	width: 289px;
+	height: 22px;
+	z-index: 2;
+	left: 37px;
+	top: 249px;
+	color: #DDD;
+	text-align: center;
+	background-color: #336666;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#V2 {	position: absolute;
+	width: 236px;
+	height: 141px;
+	z-index: 1;
+	left: 27px;
+	top: 26px;
+	background-color: #DDDDDD;
+}
+#V1bg2 {
+	position: absolute;
+	width: 291px;
+	height: 188px;
+	z-index: 1;
+	left: 546px;
+	top: 42px;
+	background-color: #000000;
+}
+#apDiv3 {
+	position: absolute;
+	width: 289px;
+	height: 22px;
+	z-index: 2;
+	left: 549px;
+	top: 251px;
+	color: #DDD;
+	text-align: center;
+	background-color: #336666;
+	font-family: "Arial Black", Gadget, sans-serif;
 }
 </style>
 </head>
@@ -61,8 +103,15 @@ function MM_swapImage() { //v3.0
 <div>
   <div align="center"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Home','','Images/Buttons/images/images/rollover_01.jpg',1)"><img src="Images/Buttons/images/bt_01.jpg" width="92" height="64" id="Home" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Videos','','Images/Buttons/images/images/rollover_03.jpg',0)"><img src="Images/Buttons/images/bt_03.jpg" width="114" height="64" id="Videos" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Products','','Images/Buttons/images/images/rollover_05.jpg',1)"><img src="Images/Buttons/images/bt_05.jpg" width="138" height="64" id="Products" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Signup','','Images/Buttons/images/images/rollover_07.jpg',1)"><img src="Images/Buttons/images/bt_07.jpg" width="116" height="64" id="Signup" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Latest','','Images/Buttons/images/images/rollover_09.jpg',1)"><img src="Images/Buttons/images/bt_09.jpg" width="111" height="64" id="Latest" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Contacts','','Images/Buttons/images/images/rollover_11.jpg',1)"><img src="Images/Buttons/images/bt_11.jpg" width="142" height="64" id="Contacts" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Feedback','','Images/Buttons/images/images/rollover_13.jpg',1)"><img src="Images/Buttons/images/bt_13.jpg" width="121" height="64" id="Feedback" /></a></div>
 </div>
-<div id="Videobg"></div>
-<div id="Video1"></div>
-<div id="apDiv1">Video 1???</div>
+<div id="apDiv2">
+  <div id="V1bg">
+    <div id="V1"></div>
+  </div>
+  <div id="apDiv1">CHECK OUT PRODUCTS</div>
+  <div id="V1bg2">
+    <div id="V2"></div>
+  </div>
+  <div id="apDiv3">CHECK OUT PRODUCTS</div>
+</div>
 </body>
 </html>
