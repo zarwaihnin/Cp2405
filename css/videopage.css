@@ -2,34 +2,29 @@
 /* CSS Document */
 .video {
 	margin: 20px;
-	padding: 20px;	
+	padding: 20px;
+	float: left;
 }
 
 .product {
 	background-color: #666;
 	margin: 10px;
+	margin-right:180px;
 	padding: 10px;
 	font-family: "Century Gothic";
 	font-size: 14px;
 	color: #F69;
-	width: 200px;
-	float: left;
+	width: auto;
+	height:auto;
+	float:right
 }
-
-.product img {
-	height: 100px;
-	width: 100px;
-	text-align: center;
-	float: left;
-	margin-right: 10px;
-}
-
 
 h1,h2 {
-	background-color: #C06;
 	text-align: center;
 }
 
-h1 {
-	width: 860px;
+.desc {
+	float : right;
+	width : 300px
 }
+
