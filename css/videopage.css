@@ -27,3 +27,84 @@ h1,h2 {
 	float : right;
 	width : 300px;
 }
+
+#apDiv6 {
+	position: absolute;
+	float:left;
+	top: -5px;
+}
+
+.comment {
+	margin : 20px;
+	margin-top : 0px;
+	padding : 10px
+}
+
+#ad1bg {
+	position: absolute;
+	width: 153px;
+	height: 292px;
+	z-index: 5;
+	left: 1180px;
+	top: 50px;
+	background-color: #F06;
+}
+#apDiv7 {
+	position: absolute;
+	width: 149px;
+	height: 89px;
+	z-index: 1;
+	left: 1px;
+	top: 201px;
+}
+#ad2bg {
+	position: absolute;
+	width: 153px;
+	height: 292px;
+	z-index: 5;
+	left: 1180px;
+	top: 390px;
+	background-color: #F06;
+}
+#ad2 {
+	position: absolute;
+	width: 149px;
+	height: 89px;
+	z-index: 1;
+	left: 1px;
+	top: 0px;
+}
+#ad4bg {
+	position: absolute;
+	width: 153px;
+	height: 292px;
+	z-index: 5;
+	left: 1180px;
+	top: 1080px;
+	background-color: #F06;
+}
+#ad4 {
+	position: absolute;
+	width: 149px;
+	height: 89px;
+	z-index: 1;
+	left: 1px;
+	top: 0px;
+}
+#ad3bg {
+	position: absolute;
+	width: 153px;
+	height: 292px;
+	z-index: 5;
+	left: 1180px;
+	top: 735px;
+	background-color: #F06;
+}
+#ad3 {
+	position: absolute;
+	width: 149px;
+	height: 89px;
+	z-index: 1;
+	left: 1px;
+	top: 201px;
+}
